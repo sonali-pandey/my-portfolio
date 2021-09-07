@@ -29,7 +29,7 @@ function About() {
         <ul className="pt-10">
         {skills.map((skill) => (
             <li
-            className={`inline text-3xl mx-4 my-4 shadow-lg text-white no-underline rounded-full py-3 px-6 bg-${skill.color}`}>
+            className={`inline text-3xl mx-4 mt-4 shadow-lg text-white no-underline rounded-full py-3 px-6 bg-${skill.color}`}>
                 { skill.label }
             </li>
         ))}
