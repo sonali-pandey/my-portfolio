@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 // import './App.css';
 
 function App() {
@@ -23,7 +25,12 @@ function App() {
       currentTitle={currentTitle}
     />
     <main>
-        {currentTitle === titles[0] ? <About />: "Hello"}
+        { 
+        currentTitle === titles[0]  ? <About />
+        : currentTitle === titles[1] ? <Portfolio />
+        : currentTitle === titles[2] ? <Contact />
+        : "Hello"
+        }
     </main>
     <Footer />
     </div>
