@@ -1,5 +1,4 @@
 import React from 'react';
-import {Divider} from '@mui/material';
 import Hi from '../../HI.png';
 import Cat from '../../Cat.png';
 
@@ -17,7 +16,7 @@ function About() {
 
     return (
     <section className="jumbotron text-center h-screen">
-        <div class="grid grid-cols-6 gap-4">
+        <div className="grid grid-cols-6 gap-4">
             <div className="col-start-2 col-span-4">
         <img src={Hi} alt="saying Hi" className="animate-bounce w-96 h-100 mx-auto pt-20 pb-10"/>
         <img src={Cat} alt="Cartoon Cat" className="w-96 h-100 mx-auto pb-10"/>
@@ -26,10 +25,10 @@ function About() {
 
         <div className="col-start-1 col-end-7 pt-10">
         <h3 className="text-5xl z-40 text-white text-red-300 h-16">My Skills</h3>
-        <ul className="pt-10">
+        <ul className="container mx-auto pt-10 flex flex-wrap justify-evenly md:justify-between">
         {skills.map((skill) => (
             <li
-            className={`inline text-3xl mx-4 mt-4 shadow-lg text-white no-underline rounded-full py-3 px-6 bg-${skill.color}`}>
+            className={`inline text-3xl my-3 shadow-lg text-white no-underline rounded-full py-3 px-6 bg-${skill.color}`}>
                 { skill.label }
             </li>
         ))}
