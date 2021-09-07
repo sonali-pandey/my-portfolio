@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
+import Footer from './components/Footer';
 // import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <main>
         {currentTitle === titles[0] ? <About />: "Hello"}
     </main>
+    <Footer />
     </div>
   );
 }
