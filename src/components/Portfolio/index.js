@@ -55,7 +55,7 @@ function Portfolio() {
             <a className="flex-1 shadow-lg p-3 transition duration-300 ease-in-out transform hover:scale-110" href={ project.link } target="__blank" rel="noreferrer">
                 <h3 className={`text-3xl font-light text-${ project.theme }-600`}>{ project.name }</h3>
                 <p className="text-xl font-thin">{ project.description }</p>
-                <img src={require(`../../icons/${ project.image }.png`).default } alt={`${project.name} webpage snippet`}/>
+                <img src={require(`../../assets/images/${ project.image }.png`).default } alt={`${project.name} webpage snippet`}/>
             </a>
 
             ))}
