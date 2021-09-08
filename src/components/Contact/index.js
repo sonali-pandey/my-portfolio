@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { TextField, Box } from '@mui/material';
-import User from '../../icons/user-icon.svg';
-import Email from '../../icons/email-icon.svg';
-import Message from '../../icons/message-icon.svg';
-import ContactCat from '../../icons/contact-me.png';
+import User from '../../assets/icons/user-icon.svg';
+import Email from '../../assets/icons/email-icon.svg';
+import Message from '../../assets/icons/message-icon.svg';
+import ContactCat from '../../assets/images/contact-me.png';
 
 import { validateEmail } from '../../utils/helper';
 
@@ -55,23 +55,23 @@ function Contact() {
         <section className="w-96 h-100 mx-auto pt-20 pb-10">
           <h2 className="animate-bounce text-5xl z-40 text-white text-red-300 h-16 mx-auto">Contact me!</h2>
 
-          <img src={ContactCat} className="w-96 h-100 mx-auto pb-10"/>
+          <img src={ContactCat} className="w-96 h-100 mx-auto pb-10" alt="Cartoon shouting Cat"/>
           <form id="contact-form" onSubmit={handleSubmit} className="border-solid border-2 border-red-300 px-4 rounded-lg">
             <div className="mt-6">
             <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
-                <img src={User} className="w-8 h-10 mx-2"/>
+                <img src={User} className="w-8 h-10 mx-2" alt="user icon"/>
                 <TextField id="input-name" fullWidth label="Name" variant="outlined" onChange={handleChange} onBlur={handleChange}/>
             </Box>
             </div>
             <div className="mt-6">
             <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
-                <img src={ Email } className="w-8 h-10 mx-2"/>
+                <img src={ Email } className="w-8 h-10 mx-2" alt="email icon"/>
                 <TextField id="input-email" fullWidth label="Email" variant="outlined" onChange={handleChange} onBlur={handleChange}/>
             </Box>
             </div>
             <div className="mt-6">
             <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
-                <img src={ Message } className="w-8 h-10 mx-2"/>
+                <img src={ Message } className="w-8 h-10 mx-2" alt="message icon"/>
                 <TextField id="input-message" fullWidth multiline label="Message" variant="outlined" rows={5} onChange={handleChange} onBlur={handleChange}/>
             </Box>
             </div>

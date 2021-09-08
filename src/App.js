@@ -4,6 +4,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 // import './App.css';
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
         currentTitle === titles[0]  ? <About />
         : currentTitle === titles[1] ? <Portfolio />
         : currentTitle === titles[2] ? <Contact />
-        : "Hello"
+        : <Resume />
         }
     </main>
     <Footer />
