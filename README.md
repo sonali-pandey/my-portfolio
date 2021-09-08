@@ -10,7 +10,7 @@
 
 ## Link
 
-click [HERE](https://sonali-pandey.github.io/my-portfolio/) to checkout the portfolio.
+click [HERE](https://sonali-pandey.github.io/sonali-portfolio/) to checkout the portfolio.
 
 ## Packages
 - [TailwindCss](https://tailwindcss.com/)
