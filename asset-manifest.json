@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/sonali-portfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/sonali-portfolio/static/js/main.bc43fe5f.chunk.js",
+    "main.js.map": "/sonali-portfolio/static/js/main.bc43fe5f.chunk.js.map",
+    "runtime-main.js": "/sonali-portfolio/static/js/runtime-main.94038ede.js",
+    "runtime-main.js.map": "/sonali-portfolio/static/js/runtime-main.94038ede.js.map",
+    "static/js/2.b28068b0.chunk.js": "/sonali-portfolio/static/js/2.b28068b0.chunk.js",
+    "static/js/2.b28068b0.chunk.js.map": "/sonali-portfolio/static/js/2.b28068b0.chunk.js.map",
+    "static/js/3.19fe479c.chunk.js": "/sonali-portfolio/static/js/3.19fe479c.chunk.js",
+    "static/js/3.19fe479c.chunk.js.map": "/sonali-portfolio/static/js/3.19fe479c.chunk.js.map",
+    "index.html": "/sonali-portfolio/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/sonali-portfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.b28068b0.chunk.js.LICENSE.txt": "/sonali-portfolio/static/js/2.b28068b0.chunk.js.LICENSE.txt",
+    "static/media/Cat.png": "/sonali-portfolio/static/media/Cat.1eb4bce8.png",
+    "static/media/Coviinfo.png": "/sonali-portfolio/static/media/Coviinfo.6bfca98d.png",
+    "static/media/HI.png": "/sonali-portfolio/static/media/HI.ad67ba51.png",
+    "static/media/Octocat.png": "/sonali-portfolio/static/media/Octocat.363cb5ed.png",
+    "static/media/Quizzler.png": "/sonali-portfolio/static/media/Quizzler.6b2dbf13.png",
+    "static/media/SmartFix.png": "/sonali-portfolio/static/media/SmartFix.4509a152.png",
+    "static/media/Sonali-Pandey-Resume.pdf": "/sonali-portfolio/static/media/Sonali-Pandey-Resume.307553f3.pdf",
+    "static/media/Taskmasterpro.png": "/sonali-portfolio/static/media/Taskmasterpro.6ee684cd.png",
+    "static/media/contact-me.png": "/sonali-portfolio/static/media/contact-me.5a7f58fc.png",
+    "static/media/email-icon.8cbf683c.svg": "/sonali-portfolio/static/media/email-icon.8cbf683c.svg",
+    "static/media/linkedin.9a8d0293.svg": "/sonali-portfolio/static/media/linkedin.9a8d0293.svg",
+    "static/media/message-icon.7591efa6.svg": "/sonali-portfolio/static/media/message-icon.7591efa6.svg",
+    "static/media/schedule-simple.png": "/sonali-portfolio/static/media/schedule-simple.94ad90e3.png",
+    "static/media/user-icon.5e50152f.svg": "/sonali-portfolio/static/media/user-icon.5e50152f.svg",
+    "static/media/weather-to-go.png": "/sonali-portfolio/static/media/weather-to-go.60100230.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94038ede.js",
+    "static/js/2.b28068b0.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.bc43fe5f.chunk.js"
+  ]
+}
