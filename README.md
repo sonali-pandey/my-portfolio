@@ -16,7 +16,15 @@ click [HERE](https://sonali-pandey.github.io/sonali-portfolio/) to checkout the 
 - [TailwindCss](https://tailwindcss.com/)
 - [React](https://reactjs.org/)
 
-## Screens
+## Screen
+
+![portfolio-webpage-gif](./src/assets/demo/portfolio-demo.gif)
+
+## Thank You
+### Author Details
+**Name:** Sonali Pandey
+
+**GitHub:** [sonali-pandey](https://github.com/sonali-pandey)
 
 
 
