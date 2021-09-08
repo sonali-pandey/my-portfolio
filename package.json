@@ -1,6 +1,7 @@
 {
-  "name": "my-portfolio",
+  "name": "sonali-portfolio",
   "version": "0.1.0",
+  "homepage": "https://sonali-pandey.github.io/sonali-portfolio/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.4.1",
