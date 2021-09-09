@@ -25,7 +25,7 @@ function About() {
 
         <div className="col-start-1 col-end-7 pt-6">
         <h3 className="text-5xl text-white text-red-300 h-16">My Skills</h3>
-        <ul className="container mx-auto flex flex-wrap justify-evenly">
+        <ul className="container mx-auto p-16 flex flex-wrap justify-evenly grid grid-cols-3 gap-6">
         {skills.map((skill) => (
             <li
             className={`inline text-3xl my-3 shadow-lg text-white no-underline rounded-full py-3 px-6 bg-${skill.color}`}

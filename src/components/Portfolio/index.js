@@ -46,7 +46,7 @@ function Portfolio() {
         },
     ])
     return(
-        <main className="container mx-auto p-16">
+        <main className="container mx-auto p-16 h-screen">
         <h3 className="text-5xl z-40 text-red-300 h-16 py-5 mx-auto grid grid-cols-1">My Projects</h3>
 
         <div className="flex flex-wrap pt-5 gap-x-16 gap-y-16 grid grid-cols-1 md:grid-cols-3">

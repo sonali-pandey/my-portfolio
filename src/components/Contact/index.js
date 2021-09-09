@@ -52,7 +52,7 @@ function Contact() {
       };
 
     return(
-        <section className="container mx-auto p-16">
+        <section className="container mx-auto p-16 h-screen">
 
           <h2 className="animate-bounce text-5xl z-40 text-white text-red-300 h-16 mx-auto flex justify-center">Contact me!</h2>
 
