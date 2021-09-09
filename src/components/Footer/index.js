@@ -1,27 +1,34 @@
-import React from 'react';
-import GitHub from '../../assets/images/Octocat.png';
-import Email from '../../assets/images/email.png';
-import linkedIn from '../../assets/icons/linkedin.svg';
+import React, {useState} from 'react';
 
 function Footer() {
+
+    const [contacts] = useState([
+        { name: "Email", 
+          link: "mailto:sonali23.1293@gmail.com",
+          icon: "images/email.png"
+        },
+        {
+          name: "LinkedIn",
+          link: "https://www.linkedin.com/in/sonali-pandey/",
+          icon: "images/Octocat.png"
+        },
+        {
+          name: "GitHub",
+          link: "https://github.com/sonali-pandey",
+          icon: "icons/linkedin.svg"
+        }
+      ])
+
     return (
-        <footer className="h-16 flex flex-wrap justify-center py-5">
+        <footer className="inset-x-0 flex flex-wrap justify-center py-5">
         <ul className="flex flex-wrap items-center mx-20 ">
-            <li className="mx-3 text-xl">
-                <a href="https://www.linkedin.com/in/sonali-pandey/" target="_blank" rel="noreferrer">
-                    <img src={linkedIn} className="w-auto h-16" alt="linkedin icon"/>
+            {contacts.map((contact) => (
+                <li className="mx-3 text-xl mx-auto" key={contact.name}>
+                <a href={contact.link} target="_blank" rel="noreferrer">
+                    <img src={require(`../../assets/${contact.icon}`).default} className="w-auto h-16" alt={`${contact.name} icon`}/>
                 </a>
             </li>
-            <li className="mx-3 text-xl">
-                <a href="mailto:sonali23.1293@gmail.com">
-                    <img src={Email} className="w-auto h-16" alt="email icon"/>
-                </a>
-            </li>
-            <li className="mx-3 text-xl">
-                <a href="https://github.com/sonali-pandey" target="_blank" rel="noreferrer">
-                    <img src={GitHub} className="w-auto h-16"alt="gitHub octocat icon"/>
-                </a>
-            </li>
+            ))}
         </ul>
     </footer>
     )

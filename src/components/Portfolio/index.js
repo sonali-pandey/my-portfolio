@@ -52,7 +52,7 @@ function Portfolio() {
         <div className="flex flex-wrap pt-5 gap-x-16 gap-y-16 grid grid-cols-1 md:grid-cols-3">
             {projects.map((project) => (
 
-            <a className="flex-1 shadow-lg p-3 transition duration-300 ease-in-out transform hover:scale-110" href={ project.link } target="__blank" rel="noreferrer">
+            <a className="flex-1 shadow-lg p-3 transition duration-300 ease-in-out transform hover:scale-110" key={project.name} href={ project.link } target="__blank" rel="noreferrer">
                 <h3 className={`text-3xl font-light text-${ project.theme }-600`}>{ project.name }</h3>
                 <p className="text-xl font-thin">{ project.description }</p>
                 <img src={require(`../../assets/images/${ project.image }.png`).default } alt={`${project.name} webpage snippet`}/>
