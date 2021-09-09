@@ -15,7 +15,7 @@ function About() {
       ]);
 
     return (
-    <section className="text-center">
+    <section className="text-center h-screen">
         <div className="grid grid-cols-6 gap-4">
             <div className="col-start-2 col-span-4">
         <img src={Hi} alt="saying Hi" className="animate-bounce w-96 h-100 mx-auto pt-20"/>
