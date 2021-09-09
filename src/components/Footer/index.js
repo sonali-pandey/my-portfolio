@@ -20,7 +20,7 @@ function Footer() {
       ])
 
     return (
-        <footer className="inset-x-0 flex flex-wrap justify-center py-5">
+        <footer className="sticky absolute inset-x-0 bottom-0 flex flex-wrap justify-center py-5 bg-gray-100 ">
         <ul className="flex flex-wrap items-center mx-20 ">
             {contacts.map((contact) => (
                 <li className="mx-3 text-xl mx-auto" key={contact.name}>
