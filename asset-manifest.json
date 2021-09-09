@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sonali-portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/sonali-portfolio/static/js/main.690ddaf6.chunk.js",
-    "main.js.map": "/sonali-portfolio/static/js/main.690ddaf6.chunk.js.map",
+    "main.js": "/sonali-portfolio/static/js/main.426929ae.chunk.js",
+    "main.js.map": "/sonali-portfolio/static/js/main.426929ae.chunk.js.map",
     "runtime-main.js": "/sonali-portfolio/static/js/runtime-main.d1821bd4.js",
     "runtime-main.js.map": "/sonali-portfolio/static/js/runtime-main.d1821bd4.js.map",
     "static/js/2.feb849f0.chunk.js": "/sonali-portfolio/static/js/2.feb849f0.chunk.js",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.d1821bd4.js",
     "static/js/2.feb849f0.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.690ddaf6.chunk.js"
+    "static/js/main.426929ae.chunk.js"
   ]
 }
