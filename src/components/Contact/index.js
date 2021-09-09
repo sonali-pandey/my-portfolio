@@ -52,34 +52,31 @@ function Contact() {
       };
 
     return(
-        <section className="w-96 h-100 mx-auto container mx-auto p-16">
-        <div className="col-start-2 col-span-4">
-          <h2 className="animate-bounce text-5xl z-40 text-white text-red-300 h-16 mx-auto">Contact me!</h2>
+        <section className="container mx-auto p-16">
+
+          <h2 className="animate-bounce text-5xl z-40 text-white text-red-300 h-16 mx-auto flex justify-center">Contact me!</h2>
 
           <img src={ContactCat} className="w-96 h-100 mx-auto pb-10" alt="Cartoon shouting Cat"/>
-          </div>
-          <form id="contact-form" onSubmit={handleSubmit} className="border-solid border-2 border-red-300 px-4 rounded-lg">
-            <div className="mt-6">
-            <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
+
+          <form onSubmit={handleSubmit} className="border-solid border-2 border-red-300 rounded-lg">
+
+            <Box sx={{ display: 'flex', alignItems: 'flex-end' }} className="mt-6 mx-6">
                 <img src={User} className="w-8 h-10 mx-2" alt="user icon"/>
                 <TextField id="input-name" fullWidth label="Name" variant="outlined" onChange={handleChange} onBlur={handleChange}/>
             </Box>
-            </div>
-            <div className="mt-6">
-            <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
+
+            <Box sx={{ display: 'flex', alignItems: 'flex-end' }} className="mt-6 mx-6">
                 <img src={ Email } className="w-8 h-10 mx-2" alt="email icon"/>
                 <TextField id="input-email" fullWidth label="Email" variant="outlined" onChange={handleChange} onBlur={handleChange}/>
             </Box>
-            </div>
-            <div className="mt-6">
-            <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
+
+            <Box sx={{ display: 'flex', alignItems: 'flex-end' }} className="mt-6 mx-6">
                 <img src={ Message } className="w-8 h-10 mx-2" alt="message icon"/>
                 <TextField id="input-message" fullWidth multiline label="Message" variant="outlined" rows={5} onChange={handleChange} onBlur={handleChange}/>
             </Box>
-            </div>
             {message && (
           <div>
-            <p className="error-text">{message}</p>
+            <p className="error-text text-red-300 px-5">{message}</p>
           </div>
         )}
             <div className="px-20">
