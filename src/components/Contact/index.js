@@ -52,10 +52,12 @@ function Contact() {
       };
 
     return(
-        <section className="w-96 h-100 mx-auto pt-20 pb-10">
+        <section className="w-96 h-100 mx-auto container mx-auto p-16">
+        <div className="col-start-2 col-span-4">
           <h2 className="animate-bounce text-5xl z-40 text-white text-red-300 h-16 mx-auto">Contact me!</h2>
 
           <img src={ContactCat} className="w-96 h-100 mx-auto pb-10" alt="Cartoon shouting Cat"/>
+          </div>
           <form id="contact-form" onSubmit={handleSubmit} className="border-solid border-2 border-red-300 px-4 rounded-lg">
             <div className="mt-6">
             <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
